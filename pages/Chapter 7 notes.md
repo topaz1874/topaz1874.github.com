@@ -1,9 +1,3 @@
----
-layout: page
-title: "About"
-description: ""
----
-{% include JB/setup %}
 ###Case Study:Street Addresses
 
 matching at the end of a string
