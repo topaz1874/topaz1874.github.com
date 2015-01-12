@@ -2,7 +2,7 @@
 layout: post
 title: "diveintopython notes chapter 4"
 description: ""
-category:[diveintopython,chapter 4]
+category:[diveintopython, chapter 4]
 tags: [python]
 ---
 {% include JB/setup %}
