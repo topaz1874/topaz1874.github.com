@@ -4,7 +4,12 @@ title: Hello World!
 
 ---
 
-## My Reading Posts
+<!--## My Reading Posts
+
+<ul>
+  {% assign pages_list = site.pages %}
+  {% include JB/pages_list %}
+</ul>
 
 Here is my reading notes:
 
@@ -14,4 +19,23 @@ Here is my reading notes:
   {% endfor %}
 </ul>
 
+-->
+<div id="posts">
+  <h2>Blog Posts</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
+<div id="pages">
+  <h2>Pages</h2>
+  <ul>
+    {% for page in site.html_pages %}
+      {% if page.title %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
