@@ -1,3 +1,11 @@
+---
+layout: post
+title: "diveintopython notes chapter 5"
+description: ""
+category: [diveintopython, chapter 5]
+tags: [python]
+---
+{% include JB/setup %}
 ###Importing Modules Using from *module* *import*
 
 	from UserDict import UserDict

@@ -1,3 +1,11 @@
+---
+layout: post
+title: "diveintopython notes chapter 6"
+description: ""
+category: [diveintopython, chapter 6]
+tags: [python]
+---
+{% include JB/setup %}
 ###Handling Exceptions
 
 Python use *try...except* to handle exceptions and *raise* to generate them.

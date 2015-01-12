@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "chapter7"
+title: "diveintopython notes chapter 7"
 description: ""
-category: [diveintopython,chater7]
-tags: [python,diveintopython]
+category: [diveintopython, chapter 7]
+tags: [python]
 ---
 {% include JB/setup %}
 ###Case Study:Street Addresses
