@@ -7,7 +7,9 @@ tags: [python]
 ---
 {% include JB/setup %}
 
+
 ###Getting Object Reference
+
 
 ####The *type* Function
 
