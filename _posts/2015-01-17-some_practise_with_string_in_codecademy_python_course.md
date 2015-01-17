@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "diveintopython notes chapter 4"
+title: "some practise with string in codecademy python course"
 description: ""
-category:[diveintopython, chapter 4]
+category:[python, notes]
 tags: [python]
 ---
 {% include JB/setup %}
