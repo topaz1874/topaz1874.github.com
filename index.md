@@ -29,7 +29,7 @@ Here is my reading notes:
   </ul>
 </div>
 
-<div id="pages">
+<!--<div id="pages">
   <h2>Pages</h2>
   <ul>
     {% for page in site.html_pages %}
@@ -38,4 +38,4 @@ Here is my reading notes:
       {% endif %}
     {% endfor %}
   </ul>
-</div>
+</div>-->
