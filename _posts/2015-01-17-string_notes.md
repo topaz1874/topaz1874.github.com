@@ -2,7 +2,7 @@
 layout: post
 title: "string_notes"
 description: ""
-category: 
+category: [python, tutorial]
 tags: [python]
 ---
 {% include JB/setup %}
