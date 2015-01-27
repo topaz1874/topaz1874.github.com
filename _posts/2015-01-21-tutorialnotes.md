@@ -52,7 +52,10 @@ a negative stride progresses through the list from right to left.
 	b = filter(lambda x:x>4, a)
 	
 	# Add three to all list members
-	
+	a = [3, 4, 5]
+	b = [i+3 for i in a]
+	# or
+	b = map(lambda x: x+3, a)
 	
 ####introducing *super()*
 
