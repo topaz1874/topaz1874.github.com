@@ -45,7 +45,15 @@ a negative stride progresses through the list from right to left.
 	
 	evenly_divide =filter(lambda x: x % 2 == 0, range(100))
 	
-
+	# Filter elements greater than 4
+	a = [3, 4, 5]
+	b = [i for i in a if i > 4]
+	# or
+	b = filter(lambda x:x>4, a)
+	
+	# Add three to all list members
+	
+	
 ####introducing *super()*
 
 sometimes you'll be working with a derived class and realize that you've overwritten a method or attribute defined in that class's base class that you actually need.
