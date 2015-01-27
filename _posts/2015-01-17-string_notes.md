@@ -52,3 +52,5 @@ simple example for the string "hello":
             lst[i] = len(word)*'*'
     text = " ".join(lst)
     return text
+    
+###nested loop list com
