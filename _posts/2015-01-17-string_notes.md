@@ -53,4 +53,6 @@ simple example for the string "hello":
     text = " ".join(lst)
     return text
     
-###nested loop list com
+###nested loop list comprehensive
+
+	
