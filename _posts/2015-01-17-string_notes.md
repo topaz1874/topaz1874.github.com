@@ -59,4 +59,7 @@ strings are immutable, this means that when constructing a string from its part,
 
 speaking of which, nested loop list comprehensive is kind of odd to me, I have do some searchs to better understand it.
 
+	
 	[x for b in a for x in b] 
+	
+			
